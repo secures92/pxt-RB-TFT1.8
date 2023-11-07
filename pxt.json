@@ -1,6 +1,6 @@
 {
     "name": "RB-TFT1.8",
-    "version": "1.0.9",
+    "version": "1.1.0",
     "description": "MakeCode Package for the RB-TFT1.8 (ST7735 1.8' TFT Display).",
     "license": "MIT",
     "dependencies": {
