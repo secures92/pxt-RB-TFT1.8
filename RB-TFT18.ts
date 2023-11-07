@@ -164,9 +164,9 @@ enum Color {
       */
      //% block="Initialize TFT Display"
      //% weight=100
-     export function init(): void {
+     export function init(spi_freq: number=10000000): void {
          // set SPI frequency
-         pins.spiFrequency(20000000)
+         pins.spiFrequency(spi_freq)
 
          // Software reset
          send(TFTCommands.SWRESET, [1])
