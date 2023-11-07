@@ -162,10 +162,8 @@ enum Color {
      /*
       * Initial TFT setup
       */
-     //% block="Initialize TFT Display"
-     //% spi_freq.min=4000000 y.max=36000000
+     //% block="Initialize TFT Display with SPI Frequency:%spi_freq in Hz"
      //% weight=100
-     
      export function init(spi_freq: number): void {
          // set SPI frequency
          pins.spiFrequency(spi_freq)
