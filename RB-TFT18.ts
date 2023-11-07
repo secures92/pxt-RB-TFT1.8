@@ -164,7 +164,7 @@ enum Color {
       */
      //% block="Initialize TFT Display"
      //% weight=100
-     export function init(spi_freq: number=10000000): void {
+     export function init(spi_freq: number): void {
          // set SPI frequency
          pins.spiFrequency(spi_freq)
 
