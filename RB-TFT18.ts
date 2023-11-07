@@ -166,7 +166,7 @@ enum Color {
      //% weight=100
      export function init(): void {
          // set SPI frequency
-         pins.spiFrequency(6000000)
+         pins.spiFrequency(10000000)
 
          // Software reset
          send(TFTCommands.SWRESET, [1])
